@@ -1,2 +1,10 @@
+/.idea/.gitignore
+#maven
+target/
+
+#idea
+.idea/
+*.ipr
+*.iml
+*.iws
 *.class
-*.log
