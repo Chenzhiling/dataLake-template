@@ -1,0 +1,219 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "965a824c-bd2b-4963-9a72-35cf959719f2",
+  "location" : "testData/mysql_spark_iceberg/demo/mysql_spark_iceberg",
+  "last-updated-ms" : 1679454096671,
+  "last-column-id" : 16,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "tinyint_test",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "smallint_test",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "mediumint_test",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 5,
+      "name" : "int_test",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 6,
+      "name" : "float_test",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 7,
+      "name" : "double_test",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 8,
+      "name" : "year_test",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 9,
+      "name" : "time_test",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 10,
+      "name" : "date_test",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 11,
+      "name" : "datetime_test",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 12,
+      "name" : "timestamp_test",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 13,
+      "name" : "char_test",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "string_test",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "text_test",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "bit_test",
+      "required" : false,
+      "type" : "boolean"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "tinyint_test",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "smallint_test",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "mediumint_test",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 5,
+      "name" : "int_test",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 6,
+      "name" : "float_test",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 7,
+      "name" : "double_test",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 8,
+      "name" : "year_test",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 9,
+      "name" : "time_test",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 10,
+      "name" : "date_test",
+      "required" : false,
+      "type" : "date"
+    }, {
+      "id" : 11,
+      "name" : "datetime_test",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 12,
+      "name" : "timestamp_test",
+      "required" : false,
+      "type" : "timestamptz"
+    }, {
+      "id" : 13,
+      "name" : "char_test",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "string_test",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "text_test",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "bit_test",
+      "required" : false,
+      "type" : "boolean"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "chenzhiling"
+  },
+  "current-snapshot-id" : 2454916094481450910,
+  "snapshots" : [ {
+    "snapshot-id" : 2454916094481450910,
+    "timestamp-ms" : 1679454096628,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1679454093072",
+      "added-data-files" : "1",
+      "added-records" : "20",
+      "added-files-size" : "11893",
+      "changed-partition-count" : "1",
+      "total-records" : "20",
+      "total-files-size" : "11893",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "testData/mysql_spark_iceberg/demo/mysql_spark_iceberg/metadata/snap-2454916094481450910-1-358c6588-f393-4a74-8195-08bb35db8bbc.avro",
+    "schema-id" : 0
+  } ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1679454096628,
+    "snapshot-id" : 2454916094481450910
+  } ],
+  "metadata-log" : [ ]
+}
