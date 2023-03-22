@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>dataLake-template-iceberg-spark-mysql</module>
+        <module>dataLake-template-iceberg-spark-kafka</module>
     </modules>
 
     <properties>
