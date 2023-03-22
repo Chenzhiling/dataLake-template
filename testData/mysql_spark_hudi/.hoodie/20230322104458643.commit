@@ -1,0 +1,51 @@
+{
+  "partitionToWriteStats" : {
+    "default" : [ {
+      "fileId" : "4e1bcf3c-8f10-4270-b72d-9a89fc3ad1d9-0",
+      "path" : "default/4e1bcf3c-8f10-4270-b72d-9a89fc3ad1d9-0_0-26-2004_20230322104458643.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 20,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 20,
+      "totalWriteBytes" : 445669,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "default",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 445669,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"mysql_spark_hudi_record\",\"namespace\":\"hoodie.mysql_spark_hudi\",\"fields\":[{\"name\":\"id\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"tinyint_test\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"smallint_test\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"mediumint_test\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"int_test\",\"type\":[\"null\",\"int\"],\"default\":null},{\"name\":\"float_test\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"double_test\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"year_test\",\"type\":[\"null\",{\"type\":\"int\",\"logicalType\":\"date\"}],\"default\":null},{\"name\":\"time_test\",\"type\":[\"null\",{\"type\":\"long\",\"logicalType\":\"timestamp-micros\"}],\"default\":null},{\"name\":\"date_test\",\"type\":[\"null\",{\"type\":\"int\",\"logicalType\":\"date\"}],\"default\":null},{\"name\":\"datetime_test\",\"type\":[\"null\",{\"type\":\"long\",\"logicalType\":\"timestamp-micros\"}],\"default\":null},{\"name\":\"timestamp_test\",\"type\":[\"null\",{\"type\":\"long\",\"logicalType\":\"timestamp-micros\"}],\"default\":null},{\"name\":\"char_test\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"string_test\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"text_test\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"bit_test\",\"type\":[\"null\",\"boolean\"],\"default\":null}]}",
+    "__partition_columns" : "[]"
+  },
+  "operationType" : "UPSERT",
+  "fileIdAndRelativePaths" : {
+    "4e1bcf3c-8f10-4270-b72d-9a89fc3ad1d9-0" : "default/4e1bcf3c-8f10-4270-b72d-9a89fc3ad1d9-0_0-26-2004_20230322104458643.parquet"
+  },
+  "totalRecordsDeleted" : 0,
+  "totalLogRecordsCompacted" : 0,
+  "totalLogFilesCompacted" : 0,
+  "totalCompactedRecordsUpdated" : 0,
+  "totalLogFilesSize" : 0,
+  "totalScanTime" : 0,
+  "totalCreateTime" : 366,
+  "totalUpsertTime" : 0,
+  "minAndMaxEventTime" : {
+    "Optional.empty" : {
+      "val" : null,
+      "present" : false
+    }
+  },
+  "writePartitionPaths" : [ "default" ]
+}

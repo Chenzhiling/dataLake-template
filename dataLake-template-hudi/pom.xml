@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dataLake-template-hudi</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>dataLake-template-hudi-spark-mysql</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
