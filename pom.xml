@@ -13,6 +13,7 @@
         <module>dataLake-template-iceberg</module>
         <module>dataLake-template-hudi</module>
         <module>dataLake-template-delta/dataLake-template-delta-spark-mysql</module>
+        <module>dataLake-template-delta/dataLake-template-delta-spark-kafka</module>
     </modules>
 
     <properties>
